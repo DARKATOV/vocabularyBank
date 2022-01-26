@@ -72,5 +72,4 @@ function engine (vocabulariesData){
     }
 };
 console.log("Today´s words")
-
 engine(macroVocabulary);
