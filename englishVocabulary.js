@@ -10,7 +10,8 @@ const macroVocabulary = {
         "lenght",
         "index",
         "amount",
-        "string"
+        "string",
+        "less",
     ],
     unixVocabulary : [
         "pwd",
@@ -21,13 +22,20 @@ const macroVocabulary = {
         "cat >",
         "rm",
         "rm -r",
-        "grep"
+        "grep",
+        "--help",
+        "echo",
+        "less",
+        "open",
+        "whoami"
     ],
     computingVocabulary : [
         "solaris",
         "sun",
         "bit",
         "byte",
+        "GUI",
+        "shell"
     ]
 };
 function engine (vocabulariesData){
