@@ -12,7 +12,8 @@ const macroVocabulary = {
         "amount",
         "string",
         "less",
-        "staging"
+        "staging",
+        "arm"
     ],
     unix : [
         "pwd",
@@ -56,9 +57,7 @@ const macroVocabulary = {
         "status",
         "commit",
         "push",
-        "pull",
-        "merge"
-    ]
+        "pu
 };
 function engine (vocabulariesData){
     const numberOfVocabularies = Object.keys(vocabulariesData).length;
