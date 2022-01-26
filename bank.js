@@ -1,5 +1,5 @@
 const macroVocabulary = {
-    englishVocabulary : [
+    english : [
         "spread",
         "knowledge",
         "ledge",
@@ -12,8 +12,9 @@ const macroVocabulary = {
         "amount",
         "string",
         "less",
+        "staging"
     ],
-    unixVocabulary : [
+    unix : [
         "pwd",
         "ls",
         "cd",
@@ -29,13 +30,34 @@ const macroVocabulary = {
         "open",
         "whoami"
     ],
-    computingVocabulary : [
+    computing : [
         "solaris",
         "sun",
         "bit",
         "byte",
         "GUI",
-        "shell"
+        "shell",
+        "IDE",
+        "git",
+        "repository"
+    ],
+    javascript : [
+        ".map",
+        "Math.floor",
+        "Math.random",
+        ".toString",
+        "Object.keys",
+        "String.substr()"
+    ],
+    git : [
+        "clone",
+        "init",
+        "add",
+        "status",
+        "commit",
+        "push",
+        "pull",
+        "merge"
     ]
 };
 function engine (vocabulariesData){
@@ -45,9 +67,10 @@ function engine (vocabulariesData){
         const selectedVocabulary = vocabularies[index];
         let stringVocabulary = selectedVocabulary.toString();
         const vocabulary = macroVocabulary[stringVocabulary];
-        typeof vocabulary;
         const selectedWord = vocabulary[Math.floor((Math.random()*vocabulary.length))];
-        console.log(selectedWord);
+        console.log(`${stringVocabulary}:${selectedWord}`);
     }
 };
-console.log(engine(macroVocabulary));
+console.log("Today´s words")
+
+engine(macroVocabulary);
