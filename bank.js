@@ -57,7 +57,13 @@ const macroVocabulary = {
         "status",
         "commit",
         "push",
-        "pu
+        "pull",
+        "merge",
+        "branch",
+        "branch -v",
+        "branch -a",
+        "branch -r"
+    ]
 };
 function engine (vocabulariesData){
     const numberOfVocabularies = Object.keys(vocabulariesData).length;
