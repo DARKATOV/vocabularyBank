@@ -39,7 +39,8 @@ const macroVocabulary = {
         "shell",
         "IDE",
         "git",
-        "repository"
+        "repository",
+        "CMS"
     ],
     javascript : [
         ".map",
@@ -54,6 +55,16 @@ const macroVocabulary = {
         "init",
         "add",
         "status",
+        "commit",
+        "push",
+        "pull",
+        "merge"
+    ],
+    html : [
+        "article",
+        "h1",
+        "p",
+        "a",
         "commit",
         "push",
         "pull",
