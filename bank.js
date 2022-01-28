@@ -65,10 +65,7 @@ const macroVocabulary = {
         "h1",
         "p",
         "a",
-        "commit",
-        "push",
-        "pull",
-        "merge"
+        "br"
     ]
 };
 function engine (vocabulariesData){
