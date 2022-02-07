@@ -12,7 +12,8 @@ const macroVocabulary = {
         "amount",
         "string",
         "less",
-        "staging"
+        "staging",
+        "spare"
     ],
     unix : [
         "pwd",
@@ -55,7 +56,8 @@ const macroVocabulary = {
         "init",
         "add",
         "status",
-        "commit",
+        "commit -m",
+        "commit -am",
         "push",
         "pull",
         "merge"
