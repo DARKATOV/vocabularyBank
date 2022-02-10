@@ -13,7 +13,8 @@ const macroVocabulary = {
         "string",
         "less",
         "staging",
-        "spare"
+        "spare",
+        "less"
     ],
     unix : [
         "pwd",
